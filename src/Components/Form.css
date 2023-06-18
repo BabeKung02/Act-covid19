@@ -62,13 +62,6 @@ button{
     background: red;
 }
 
-  .input-field.invalid input {
-    border: 1px solid red;
-  }
-  
-  .input-field.invalid select {
-    border: 1px solid red;
-  }
 .error-message{
     color: red;
 }
@@ -86,10 +79,6 @@ button{
   .btn-ok:hover{
     opacity: 0.6;
     transition: 0.2s;
-  }
-
-  .ant-modal-close-x {
-    display: none;
   }
 
   @media screen and (max-width: 769px) {

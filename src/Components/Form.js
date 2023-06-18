@@ -171,7 +171,7 @@ const Form = () => {
             <p className="error-message">กรุณาเลือกเพศ</p>
           )}
         </div>
-
+            
         <div className="form-group">
           <label htmlFor="birthday">วันเกิด:</label>
           <input
@@ -212,7 +212,7 @@ const Form = () => {
         <p>ชื่อ-สกุล: {formData.fullName}</p>
         <p>เพศ: {formData.gender}</p>
         <p>
-          เกิดวัน{new Date(formData.birthday).toLocaleDateString('th-TH', { weekday: 'long' })}ที่{' '}
+          เกิด{new Date(formData.birthday).toLocaleDateString('th-TH', { weekday: 'long' })}ที่{' '}
           {new Date(formData.birthday).toLocaleDateString('th-TH', {
             day: 'numeric',
             month: 'long',
